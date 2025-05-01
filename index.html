@@ -13,7 +13,7 @@
   <meta property="og:image" content="">
 
   <link rel="manifest" href="site.webmanifest">
-  <link rel="icon" type="image/png" href="./img/favicon.png">
+  <link rel="icon" type="image/png" href="./img/Personal_Logo.png">
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
@@ -25,7 +25,20 @@
 <body>
   <!-- Place your site's HTML here -->
 	 <header>
-
+		<button class="menu-toggle" aria-expanded="false" aria-controls="offcanvas-menu" onclick="myFunction(this)">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
+		</button>
+		<nav id="offcanvas-menu" class="menu">
+			<a href="#about">About Me</a>
+			<a href="./contact.html">Contact</a>
+			<a href="./index.html">
+				<img src="img/Personal_Logo.png" alt="Logo" class="logo">
+			</a>
+			<a href="./work.html">Work</a>
+			<a href="./resume.html">Resume</a>
+		</nav>
 	 </header>
 
 	 <main>
