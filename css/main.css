@@ -157,14 +157,14 @@ h4{
 		padding-bottom: 4px;
 	}
 	/* Underline From Center */
-	nav a:hover, nav a:focus, nav a:active {
+	.menu a:hover, .menu a:focus, .menu a:active {
 		display: inline-block;
 		vertical-align: middle;
 		transform: perspective(1px) translateZ(0);
 		position: relative;
 		overflow: hidden;
 	}
-	nav a:before {
+	.menu a:before {
 		content: "";
 		position: absolute;
 		z-index: -1;
@@ -177,12 +177,12 @@ h4{
 		transition-duration: 0.2s;
 		transition-timing-function: ease-out;
 	}
-	nav a:hover:before, nav a:focus:before, nav a:active:before {
+	.menu a:hover:before, .menu a:focus:before, .menu a:active:before {
 		left: 0;
 		right: 0;
 	}
 }
-nav a{
+.menu a{
 	font-family: "Tenor Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -191,3 +191,51 @@ nav a{
 	text-decoration: none;
 }
 
+/* WORK */
+
+.portfolio-nav{
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	row-gap: 20px;
+	text-align: center;
+	margin: 20px 120px;
+}
+.portfolio-nav a{
+	font-family: "Caprasimo", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	color: #1b1b1b;
+	text-decoration: none;
+}
+@media (min-width: 768px) {
+	.portfolio-nav{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		gap: 20px;
+	}
+	.portfolio-nav a{
+		font-size: 20px;
+	}
+}
+
+.fryr{
+background-color: #ffa26e;
+padding: 60px;
+border: solid 1px #1b1b1b;
+}
+.soyr{
+background-color: #f9c863;
+padding: 60px;
+border: solid 1px #1b1b1b;
+}
+.dg-banners{
+background-color: #ffabc1;
+padding: 60px;
+border: solid 1px #1b1b1b;
+}
+.personal-projects{
+background-color: #70d3c2;
+padding: 60px;
+border: solid 1px #1b1b1b;
+}
