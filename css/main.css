@@ -28,6 +28,9 @@ body{
 	font-size: 14px;
 	color: #1b1b1b;
 }
+a{
+	color: #1b1b1b;
+}
 main{
 	margin: 20px 40px;
 }
@@ -191,6 +194,17 @@ h4{
 	text-decoration: none;
 }
 
+/* HERO */
+.hero{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.hero img{
+	max-width: 400px;
+}
+
+
 /* WORK */
 
 .portfolio-nav{
@@ -314,4 +328,14 @@ transition-property: transform;
 	.piece a{
 		font-size: 16px;
 	}
+}
+
+.project-page img{
+	max-width: 400px;
+}
+.project-page{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
