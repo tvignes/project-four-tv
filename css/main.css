@@ -339,3 +339,8 @@ transition-property: transform;
 	align-items: center;
 	justify-content: center;
 }
+.fb{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
