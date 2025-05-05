@@ -108,6 +108,7 @@ h4{
   flex-direction: column;
   gap: 10px;
   padding:20px;
+  z-index: 1;
 }
 .menu.expanded {
   transform: translateX(0);
